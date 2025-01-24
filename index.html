@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="turn">
+        <p id="player"></p>
+        <p id="dice"></p> 
+        <img src="dice1.png" id="roll"></img> <br>
+        <button id="button">Roll dice!!</button>
+    </div>
+    <div id="board">
+        <div class="homeBox" player-id = "p0">
+            <div class="whiteBox"></div>
+        </div>
+        <div class="homeBox" player-id = "p1">
+            <div class="whiteBox"></div>
+        </div>
+        <div class="homeBox" player-id = "p2">
+            <div class="whiteBox"></div>
+        </div>
+        <div class="homeBox" player-id = "p3">
+            <div class="whiteBox"></div>
+        </div>
+    </div>
+    <div class="player-piece" player-id = "p0" index = '0'></div>
+    <div class="player-piece" player-id = "p0" index = '1'></div>
+    <div class="player-piece" player-id = "p0" index = '2'></div>
+    <div class="player-piece" player-id = "p0" index = '3'></div>
+    <div class="player-piece" player-id = "p1" index = '0'></div>
+    <div class="player-piece" player-id = "p1" index = '1'></div>
+    <div class="player-piece" player-id = "p1" index = '2'></div>
+    <div class="player-piece" player-id = "p1" index = '3'></div>
+    <div class="player-piece" player-id = "p2" index = '0'></div>
+    <div class="player-piece" player-id = "p2" index = '1'></div>
+    <div class="player-piece" player-id = "p2" index = '2'></div>
+    <div class="player-piece" player-id = "p2" index = '3'></div>
+    <div class="player-piece" player-id = "p3" index = '0'></div>
+    <div class="player-piece" player-id = "p3" index = '1'></div>
+    <div class="player-piece" player-id = "p3" index = '2'></div>
+    <div class="player-piece" player-id = "p3" index = '3'></div>
+    <button id="new" onclick="window.location.reload()">New Game</button>
+    <script src="script.js"></script>
+</body>
+</html>
