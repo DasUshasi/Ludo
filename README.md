@@ -10,3 +10,6 @@ The game supports the following rules :
      a. If a cell has 2 pieces of player 1 and player 2 puts one of his pieces in the same cell, player 2 eliminates 1 piece of player 1. So now in this cell there will be 1 piece of player 1 and 1 piece of player 2
      b. Now if player 3 (or 4) put 1 piece in this cell, he will eliminate 1 piece of player 2 as he is the one (among player 1 and 2) who has last rolled the dice
 6. A player will get extra moves on every 6 in dice, on eliminating a piece of another player and on placing a piece in home.
+
+Here is how the project looks:
+![Screenshot 2025-02-09 122751](https://github.com/user-attachments/assets/e4452b30-af2f-465f-9aaa-cb016e46d9fd)
